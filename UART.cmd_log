@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/UART.xst" -ofn "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/UART.syr" 

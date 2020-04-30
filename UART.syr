@@ -1,0 +1,143 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: UART.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "UART.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "UART"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : UART
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" in Library work.
+ERROR:HDLParsers:3011 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 17. End Identifier UART_TX does not match declaration, UART.
+ERROR:HDLParsers:3010 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 20. Entity UART does not exist.
+ERROR:HDLParsers:3312 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 26. Undefined symbol 'clockperiods'.
+ERROR:HDLParsers:1209 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 26. clockperiods: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 28. Undefined symbol 'std_logic_vector'.
+ERROR:HDLParsers:1209 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 28. std_logic_vector: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 29. Undefined symbol 'std_logic'.
+ERROR:HDLParsers:1209 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 29. std_logic: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 34. Undefined symbol 'Clk'.
+ERROR:HDLParsers:1209 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 34. Clk: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 36. Undefined symbol 'rising_edge'.
+ERROR:HDLParsers:1209 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 36. rising_edge: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 42. Undefined symbol 'Serial'.
+ERROR:HDLParsers:3312 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 43. Undefined symbol 'Done'.
+ERROR:HDLParsers:3312 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 47. Undefined symbol 'Data_valid'.
+ERROR:HDLParsers:1209 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 47. Data_valid: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 48. Undefined symbol 'Data'.
+ERROR:HDLParsers:3312 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 48. Undefined symbol 'Byte'.
+ERROR:HDLParsers:1209 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 48. Byte: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3260 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 57. Object name expected: predefined attribute 'active' unexpected.
+ERROR:HDLParsers:1209 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 58. Serial: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 72. Data: Undefined symbol (last report in this block)
+ERROR:HDLParsers:1209 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 100. Done: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3260 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 108. Object name expected: predefined attribute 'active' unexpected.
+WARNING:HDLParsers:1406 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 34. No sensitivity list and no wait in the process
+ERROR:HDLParsers:3312 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 119. Undefined symbol 'oDone'.
+ERROR:HDLParsers:3312 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 119. Undefined symbol 'Done'.
+ERROR:HDLParsers:1209 - "C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/Uart.vhd" Line 119. Done: Undefined symbol (last report in this block)
+--> 
+
+Total memory usage is 4504280 kilobytes
+
+Number of errors   :   27 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
