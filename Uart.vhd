@@ -68,7 +68,7 @@ begin
           end if;
 
           
-        -- Wait g_CLKS_PER_BIT-1 clock cycles for data bits to finish          
+                 
         when Data_Bits =>
           Serial <= Data(Bit_Index); -- increasing particular index bit serial byte
           
@@ -104,7 +104,7 @@ begin
           end if;
 
                   
-        -- Stay here 1 clock
+        -- Stays here 1 clock
         when clear =>
           Active <= '0';
          

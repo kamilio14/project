@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-04-30T14:03:53</DateModified>
+  <DateModified>2020-04-30T14:36:05</DateModified>
   <ModuleName>UART_TX</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/User/Desktop/Skola/New folder/Uart-transmitter/iseconfig/UART_TX.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/User/Desktop/Skola/New folder/Uart-transmitter\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/User/Desktop/Skola/folder/Uart-transmitter/iseconfig/UART_TX.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/User/Desktop/Skola/folder/Uart-transmitter\</ImplementationReportsDirectory>
   <DateInitialized>2020-04-30T14:03:14</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
